@@ -1,0 +1,38 @@
+.modal_body {
+	position: fixed;
+	border: 1px solid white;
+	z-index: 999;
+	background-color: rgba(157, 157, 157, 0.952);
+	border-radius: 15px;
+}
+
+.modal_container {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	height: 250px;
+	padding: 50px;
+}
+
+.btns {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+input {
+	border: none;
+	outline: none;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.btns button {
+	border: 0.5px solid white;
+	padding: 5px;
+	outline: none;
+	border-radius: 5px;
+}
+button:nth-child(1) {
+	color: grey;
+}
